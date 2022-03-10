@@ -179,6 +179,7 @@
     cursor: pointer;
     line-height: 24px;
     margin-bottom: 200px;
+    z-index: 9999999;
   }
   .main-buttons {
     display: flex;
@@ -263,6 +264,7 @@
     cursor: pointer;
     line-height: 24px;
     margin-left: 50px;
+    z-index: 999999;
   }
   .main-buttons {
     display: flex;
