@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/discord-clone/static/css/main.56fe9b4c.css",
+    "main.js": "/discord-clone/static/js/main.f195f741.js",
+    "static/media/discord-secondimg.svg": "/discord-clone/static/media/discord-secondimg.e2236b93f8ca27e6307bfbcf11b4e749.svg",
+    "static/media/discord-firstimg.svg": "/discord-clone/static/media/discord-firstimg.2b633b79ba966ad23a683742dfa60cf7.svg",
+    "static/media/discord-thirdimg.svg": "/discord-clone/static/media/discord-thirdimg.58ff7a2be4dde6382f19cf3279d2faef.svg",
+    "static/media/discord-largebottom.svg": "/discord-clone/static/media/discord-largebottom.b8b2baa7deaa4d684823cc70302f9f85.svg",
+    "static/media/GintoNord-Black.woff": "/discord-clone/static/media/GintoNord-Black.042b699e3ac762fced7f.woff",
+    "static/media/GintoNord-Medium.woff": "/discord-clone/static/media/GintoNord-Medium.139d9e86b34d3087c8ac.woff",
+    "static/media/discord-shoe.svg": "/discord-clone/static/media/discord-shoe.ad0e2a5128d80e5d89e7db2ff89ba852.svg",
+    "static/media/discord-drinking.svg": "/discord-clone/static/media/discord-drinking.4412ed0aecaa5e680e2825260ad02488.svg",
+    "static/media/Whitney-Book-Bas.woff": "/discord-clone/static/media/Whitney-Book-Bas.ce5c4dab3e12e893cb99.woff",
+    "static/media/UniSansHeavyCAPS.woff": "/discord-clone/static/media/UniSansHeavyCAPS.40af59d196741007a2cc.woff",
+    "static/media/whitneymedium.woff": "/discord-clone/static/media/whitneymedium.9f3b17e7a726fec9f347.woff",
+    "static/media/discord-clouds.svg": "/discord-clone/static/media/discord-clouds.cee8c404dad14e615fd4.svg",
+    "static/media/discordLogo.svg": "/discord-clone/static/media/discordLogo.bab7c0efdc16907b37b2324b13d15d28.svg",
+    "static/media/discord-starfooter.svg": "/discord-clone/static/media/discord-starfooter.a3f3696d42e79a64b2fc679b6fef9bc4.svg",
+    "index.html": "/discord-clone/index.html",
+    "static/media/times-solid.svg": "/discord-clone/static/media/times-solid.ea7c95d7120c0efcb4b16602bf9049a5.svg",
+    "static/media/bars-solid.svg": "/discord-clone/static/media/bars-solid.620d038dc2ebf0473ad86b827a78dcd5.svg",
+    "main.56fe9b4c.css.map": "/discord-clone/static/css/main.56fe9b4c.css.map",
+    "main.f195f741.js.map": "/discord-clone/static/js/main.f195f741.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.56fe9b4c.css",
+    "static/js/main.f195f741.js"
+  ]
+}
