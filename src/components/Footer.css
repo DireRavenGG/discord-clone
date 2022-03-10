@@ -1,0 +1,99 @@
+footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #23272a;
+}
+
+.footer__container {
+  display: grid;
+  grid-template-columns: 400px repeat(4, 200px);
+}
+
+.products {
+  grid-column: 2 / 3;
+}
+
+.links {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: "Whitney Book";
+  font-size: 16px;
+}
+
+.links a {
+  text-decoration: none;
+  color: white;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+.links h4 {
+  color: #5865f2;
+  margin: 0;
+}
+
+.footer-start {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  padding-top: 50px;
+}
+
+.footer-start h2 {
+  color: #5865f2;
+  font-family: "Ginto Black";
+  font-size: 32px;
+  line-height: 95%;
+  margin-right: 100px;
+}
+.footer-start select {
+  font-family: "Whitney Book";
+  font-size: 14px;
+}
+
+select {
+  color: White;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+}
+
+option {
+  background-color: #23272a;
+}
+
+.end-footer {
+  grid-column: 5 / 6;
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.end-footer button {
+  margin-left: 2%;
+  background-color: #5865f2;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 7px 16px;
+  cursor: pointer;
+  align-items: center;
+  line-height: 24px;
+}
+
+.footer-logo {
+  padding-top: 30px;
+}
+
+hr {
+  grid-row: 2 / 3;
+  grid-column: 1 / 6;
+  border: 0.25px solid #5865f2;
+  width: 100%;
+}

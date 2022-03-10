@@ -1,0 +1,331 @@
+.bottom-download-btn {
+  font-size: 20px;
+  border: none;
+  border-radius: 50px;
+  padding: 18px 24px;
+  cursor: pointer;
+  line-height: 24px;
+
+  background-color: #5865f2;
+  color: white;
+}
+.bottom-download-btn:hover {
+  background-color: #747eeb;
+  color: white;
+  box-shadow: 1px 5px 10px #7b84ec91;
+}
+.resize-img {
+  width: 100%;
+  height: 100%;
+}
+.center-info-text h2 {
+  text-align: center;
+  padding: 0 90px;
+  font-family: "Ginto Black";
+  font-size: 37px;
+  color: rgb(35, 39, 42);
+}
+.center-info-text p {
+  font-size: clamp(16px, 2vw, 20px);
+  padding: 0 36px;
+  text-align: center;
+}
+
+@media only screen and (min-width: 1024px) {
+  .main__image-container {
+    box-sizing: border-box;
+  }
+
+  .main__image-container img {
+    position: absolute;
+  }
+
+  .foreground-left {
+    display: block;
+    height: auto;
+    width: auto;
+    left: 50%;
+    bottom: 0;
+    margin-left: -1020px;
+    top: 354px;
+  }
+
+  .foreground-right {
+    display: block;
+    height: auto;
+    width: auto;
+    left: 50%;
+    bottom: 0;
+    margin-left: 250px;
+    top: 346px;
+  }
+
+  .main__info-container {
+    background-color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 115px 0px;
+    justify-content: center;
+  }
+
+  .main__info-container img {
+    grid-column: span 4;
+    grid-row: 1 / 2;
+  }
+
+  .main__second-info-container {
+    background-color: #f6f6f6;
+    display: flex;
+    flex-direction: row;
+    padding: 115px 0px;
+    justify-content: center;
+  }
+
+  .main__last-info-container {
+    background-color: #f6f6f6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 115px 0px;
+  }
+
+  .main__second-info-container img {
+    grid-column: 5 / span 4;
+    grid-row: 1 / 2;
+  }
+
+  .main__ready-to-start {
+    background-color: #f6f6f6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .right-info-text {
+    width: 380px;
+    padding-left: 50px;
+    grid-column: span 4;
+  }
+
+  .left-info-text {
+    width: 380px;
+    padding-left: 50px;
+    grid-column: span 4;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    box-sizing: border-box;
+    max-width: 1260px;
+    width: 100%;
+    gap: 0 20px;
+    padding: 0 24px;
+  }
+
+  .center-info-text {
+    grid-column: span 8;
+  }
+  .main__last-info-container {
+    background-color: #f6f6f6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 115px 0px;
+  }
+  .main__last-info-container img {
+    grid-column: span 8;
+    grid-row: 2 / 3;
+    justify-content: center;
+  }
+
+  .header-paragraph {
+    font-family: "Whitney Book";
+    color: white;
+
+    width: 780px;
+    padding-bottom: 20px;
+  }
+  .top-text {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+  }
+
+  .download-button {
+    background-color: white;
+  }
+  .download-button:hover {
+    box-shadow: 1px 5px 10px #00000059;
+    color: #5865f2;
+  }
+  .open-button {
+    margin-left: 2%;
+    background-color: rgb(39, 39, 39);
+    color: white;
+  }
+  .open-button:hover {
+    background-color: rgb(59, 59, 59);
+    box-shadow: 1px 5px 10px #00000059;
+  }
+  .main-buttons button {
+    font-size: 20px;
+    border: none;
+    border-radius: 50px;
+    padding: 16px 24px;
+    cursor: pointer;
+    line-height: 24px;
+    margin-bottom: 200px;
+  }
+  .main-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .main__image-container {
+    box-sizing: border-box;
+  }
+
+  .main__image-container img {
+    position: absolute;
+    padding: 8px 50px;
+  }
+
+  .foreground-left {
+    display: none;
+  }
+
+  .foreground-right {
+    display: block;
+    height: auto;
+    width: auto;
+    left: 50%;
+    bottom: 0;
+    top: 346px;
+    margin-left: -30px;
+  }
+
+  .top-text {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    padding-top: 50px;
+    width: 500px;
+    padding-left: 50px;
+  }
+
+  .header-paragraph {
+    font-family: "Whitney Book";
+    color: white;
+
+    width: 500px;
+    padding-bottom: 20px;
+  }
+
+  .header-text {
+    line-height: 1;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  .download-button {
+    background-color: white;
+    width: 280px;
+  }
+  .download-button:hover {
+    box-shadow: 1px 5px 10px #00000059;
+    color: #5865f2;
+  }
+  .open-button {
+    background-color: rgb(39, 39, 39);
+    color: white;
+    width: 300px;
+    margin-top: 24px;
+    margin-bottom: 100px;
+  }
+  .open-button:hover {
+    background-color: rgb(59, 59, 59);
+    box-shadow: 1px 5px 10px #00000059;
+  }
+  .main-buttons button {
+    font-size: 20px;
+    border: none;
+    border-radius: 50px;
+    padding: 16px 24px;
+    cursor: pointer;
+    line-height: 24px;
+    margin-left: 50px;
+  }
+  .main-buttons {
+    display: flex;
+    flex-direction: column;
+  }
+  .main__info-container {
+    background-color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 115px 0px;
+    justify-content: center;
+  }
+
+  .main__info-container img {
+    grid-column: span 4;
+    grid-row: 1 / 2;
+  }
+  .main__second-info-container img {
+    grid-column: 5 / span 4;
+    grid-row: 1 / 2;
+  }
+  .main__second-info-container {
+    background-color: #f6f6f6;
+    padding: 115px 0px;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    box-sizing: border-box;
+    max-width: 1260px;
+    width: 100%;
+    gap: 0 20px;
+    padding: 0 24px;
+  }
+  .right-info-text {
+    text-align: left;
+    grid-column: span 4;
+  }
+  .left-info-text {
+    grid-column: span 4;
+  }
+
+  .center-info-text {
+    grid-column: span 8;
+  }
+  .main__last-info-container {
+    background-color: #f6f6f6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 115px 0px;
+  }
+  .main__last-info-container img {
+    grid-column: span 8;
+    grid-row: 2 / 3;
+  }
+  .main__ready-to-start {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  .star-svg {
+    position: absolute;
+  }
+}

@@ -1,38 +1,179 @@
-.App {
-  text-align: center;
+/* 
+Instead of having all of your css in one file, split up the 
+component specific css into it's own component files. e.g.:
+
+  src
+    /components
+      Navigation.js
+      Navigation.css
+      Body.js
+      Body.css
+
+then you can import the css file within your Navigation.js.
+This also helps to keep your css in-scope and not all over the place.
+*/
+h1 {
+  font-family: "Ginto Black";
+  font-size: 56px;
+}
+h2 {
+  font-family: "Ginto Medium";
+  font-size: 37px;
+  line-height: 98%;
+}
+h3 {
+  font-family: "Ginto Medium";
+  font-size: 27px;
+}
+p {
+  font-family: "Whitney Book";
+  line-height: 1.625;
+  font-size: 20px;
+}
+button {
+  font-family: "Whitney Book";
+}
+body {
+  overflow-x: hidden;
+  color: rgb(35, 39, 42);
+}
+/*
+  Style recommendation: leave an empty line between each set of css properties.
+    Also, I like to organize my properties in order of "importance"
+      1. display/positioning related (e.g. 'display', 'position')
+      2. margin/padding/width/height (adjustments)
+      3. colors/background/fonts (styling related)
+*/
+
+.body-main-container,
+.nav-container,
+.collapsibleNav__container {
+  box-sizing: border-box;
+  background-color: #404eed;
+  background-image: url("assets/images/discord-clouds.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 0%;
+  background-clip: content-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-links {
+  line-height: 140%;
+  font-weight: 600;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.nav-bar {
+  font-family: "Whitney Medium";
+  font-size: 16px;
   color: white;
+  padding: 20px;
+  text-decoration: none;
+}
+.nav-bar:hover {
+  text-decoration: underline;
 }
 
-.App-link {
-  color: #61dafb;
+.log-in:hover {
+  color: blue;
+  box-shadow: 1px 5px 10px #00000059;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* 
+Importing fonts
+ */
+@font-face {
+  font-family: "Uni Sans Heavy CAPS";
+  src: url("assets/UniSansHeavyCAPS.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Whitney Medium";
+  src: url("assets/whitneymedium.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Ginto Black";
+  src: url("assets/GintoNord-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Ginto Medium";
+  src: url("assets/GintoNord-Medium.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Whitney Book";
+  src: url("assets/Whitney-Book-Bas.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+/* 
+ Media Queries
+ */
+@media only screen and (max-width: 1080px) {
+  .nav-container {
+    display: none;
   }
-  to {
-    transform: rotate(360deg);
+}
+@media only screen and (min-width: 1081px) and (max-width: 1600px) {
+  .discord-nav {
+    margin-right: 10%;
+    padding: 25px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: ease all 1s;
+  }
+  .discord-logo {
+    vertical-align: middle;
+    margin-left: 10%;
+    cursor: pointer;
+  }
+  .log-in {
+    margin-left: 2%;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 7px 16px;
+    cursor: pointer;
+    align-items: center;
+    line-height: 24px;
+  }
+  .collapsibleNav__container {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1600px) {
+  .discord-nav {
+    margin-right: 20%;
+    padding: 25px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: ease all 1s;
+  }
+  .discord-logo {
+    vertical-align: middle;
+    margin-left: 20%;
+    cursor: pointer;
+  }
+  .log-in {
+    margin-left: 2%;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 7px 16px;
+    cursor: pointer;
+    align-items: center;
+    line-height: 24px;
+  }
+  .collapsibleNav__container {
+    display: none;
   }
 }

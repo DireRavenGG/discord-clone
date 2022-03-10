@@ -1,0 +1,124 @@
+.openNav img {
+  width: 40px;
+  height: 40px;
+  padding-left: 30px;
+}
+
+.openNav {
+  cursor: pointer;
+}
+
+.collapsibleNav-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 50px;
+}
+
+.collapsibleNav-container img {
+  vertical-align: middle;
+}
+
+.collapsible-login {
+  background-color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 7px 16px;
+  cursor: pointer;
+  align-items: center;
+  line-height: 24px;
+}
+
+.menu-logo {
+  filter: invert();
+}
+
+.collapsible-nav-bar {
+  text-decoration: none;
+  display: flex;
+  padding: 8px 16px;
+  color: black;
+}
+
+.home {
+  color: #00b0f4;
+  background: #f6f6f6;
+  border-radius: 8px;
+}
+
+.collapsible-nav-bar:hover {
+  text-decoration: underline;
+}
+
+.menu-div {
+  transform: translate(0px);
+  width: 330px;
+  z-index: 99;
+  position: fixed;
+  top: 0;
+  right: 0;
+  box-sizing: border-box;
+}
+
+.menu-theme {
+  background-color: white;
+  padding: 24px 48px 120px 24px;
+  bottom: 0;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.spacer {
+  width: 100%;
+  height: 1px;
+  background: #ebedef;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+
+.menu-footer {
+  bottom: 0;
+
+  right: 0;
+
+  position: absolute;
+
+  padding-right: 25px;
+  padding-bottom: 10px;
+}
+
+.menu-footer button {
+  font-size: 16px;
+  border: none;
+  border-radius: 50px;
+  padding: 8px 60px;
+  cursor: pointer;
+  line-height: 24px;
+  margin-bottom: 200px;
+  background-color: #5865f2;
+  color: white;
+  margin: 0;
+}
+
+.closeImg {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 30px 35px 0px 0px;
+}
+.closeButton:hover {
+  cursor: pointer;
+}
+
+.closeButton {
+  top: 0;
+  right: 0;
+  position: absolute;
+  margin: 30px 35px 0px 0px;
+  padding: 10px;
+  border: none;
+  background-color: transparent;
+  z-index: 1000;
+  cursor: pointer;
+}
